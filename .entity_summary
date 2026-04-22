@@ -1,0 +1,7 @@
+- Kategorien (kategorien): kategorie_name[string/text], kategorie_beschreibung[string/textarea]
+- Standorte (standorte): standort_name[string/text], gebaeude[string/text], etage[string/text], raum[string/text], standort_beschreibung[string/textarea]
+- Elektrogeräte (elektrogeraete): geraet_name[string/text], hersteller[string/text], modell[string/text], seriennummer[string/text], inventarnummer[string/text], kategorie[applookup/select], standort[applookup/select], kaufdatum[date/date], kaufpreis[number], garantie_ablauf[date/date], status[lookup/select], foto[file], notizen[string/textarea]
+  → kategorie links to app_id 69e8810fdd12d6d0097878ed
+  → standort links to app_id 69e8811331e937575115dfb9
+- Wartungen (wartungen): geraet[applookup/select], wartungsart[lookup/select], wartungsdatum[date/date], techniker_vorname[string/text], techniker_nachname[string/text], beschreibung[string/textarea], ergebnis[lookup/select], naechste_wartung[date/date], kosten[number], wartung_notizen[string/textarea]
+  → geraet links to app_id 69e88114578bd52f940aaaac

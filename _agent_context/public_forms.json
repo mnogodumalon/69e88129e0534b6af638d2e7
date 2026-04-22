@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "kategorien",
+      "app_id": "69e8810fdd12d6d0097878ed",
+      "path": "/rest/apps/69e8810fdd12d6d0097878ed/records",
+      "allowed_fields": [
+        "kategorie_name",
+        "kategorie_beschreibung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kategorien — Formular"
+    },
+    {
+      "entity": "standorte",
+      "app_id": "69e8811331e937575115dfb9",
+      "path": "/rest/apps/69e8811331e937575115dfb9/records",
+      "allowed_fields": [
+        "standort_name",
+        "gebaeude",
+        "etage",
+        "raum",
+        "standort_beschreibung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Standorte — Formular"
+    },
+    {
+      "entity": "elektrogeraete",
+      "app_id": "69e88114578bd52f940aaaac",
+      "path": "/rest/apps/69e88114578bd52f940aaaac/records",
+      "allowed_fields": [
+        "geraet_name",
+        "hersteller",
+        "modell",
+        "seriennummer",
+        "inventarnummer",
+        "kaufdatum",
+        "kaufpreis",
+        "garantie_ablauf",
+        "status",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Elektrogeräte — Formular"
+    },
+    {
+      "entity": "wartungen",
+      "app_id": "69e88115cc9d2c5a229b5b9a",
+      "path": "/rest/apps/69e88115cc9d2c5a229b5b9a/records",
+      "allowed_fields": [
+        "wartungsart",
+        "wartungsdatum",
+        "techniker_vorname",
+        "techniker_nachname",
+        "beschreibung",
+        "ergebnis",
+        "naechste_wartung",
+        "kosten",
+        "wartung_notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Wartungen — Formular"
+    }
+  ]
+}
